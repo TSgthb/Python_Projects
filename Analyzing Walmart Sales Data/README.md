@@ -1,5 +1,7 @@
 # Analyzing Shopping Store Sales Data
 
+## Overview
+
 <p align="justify">
 This project showcases the implementation of an end-to-end data analysis pipeline using a sample retail dataset from Walmart, a global hyperstore chain.
 <p>
@@ -12,21 +14,56 @@ It leverages SQL Server, Python, and Jupyter Notebook to cover the entire proces
 The pipeline also enables exploratory analysis and delivers actionable business insights through advanced SQL techniques, including CTEs, subqueries, and window functions. The entire pipeline has been set-up using a Jupyter Notebook.
 <p>
 
-Jump to end for [Findings & Conclusion](https://github.com/TSgthb/Python_Projects/edit/main/Analyzing%20Walmart%20Sales%20Data/README#findings--conclusion)
+Jump to end for [Analysis & Findings](https://github.com/TSgthb/Python_Projects/tree/main/Analyzing%20Walmart%20Sales%20Data#analysis--findings).
 
-## Project Overview & Outline
+---
 
-- Set-up environment for ingesting Walmart dataset from Kaggle using API and Python module `kaggle`.
-- Create a Jupyter Notebook and import the required Python modules for setting up DataFrame `walmart_df`, connecting to SQL Server database and carrying out analysis.
-- Import the dataset to Python dataframe using `pandas`. Additionally, clean, transform and standardize the data within to facilitate EDA and advanced analytics.
-- Establish a connection to SQL Server, create a database `walmart_db` and export the DataFrame to table, `walmart_sales` using `pyodbc` and `sqlalchemy`.
-- Analyze dataset using SQL queries to extract insights and answer business questions related to revenue trends, best selling categories, profit analysis and more.
+## Project Outline
 
-Check out the complete code here: [Analysis Notebook](https://github.com/TSgthb/Python_Projects/blob/main/Analyzing%20Walmart%20Sales%20Data/Notebooks/analysis_notebook.ipynb)
+1. **Environment Setup and Data Acquisition**  
+   - Configured the Python environment using VSCode and installed required libraries, `pandas`, `sqlalchemy`, and `pyodbc`.  
+   - Ingested the Walmart [dataset](https://www.kaggle.com/najir0123/walmart-10k-sales-datasets) from Kaggle using the Kaggle API and Python module `kaggle`.
 
-## Findings & Conclusion
+2. **Notebook Initialization and Library Imports**  
+   - Created a Jupyter Notebook as the central workspace for the data loading, tranformation and analysis.  
+   - Imported essential Python libraries for data manipulation, database connectivity, and SQL execution.  
 
-Based on the analysis of the data conducted, following are the key findings:
+3. **Data Loading and Exploration**  
+   - Loaded the dataset into a Pandas DataFrame (`walmart_df`).  
+   - Performed initial checks on data structure, shape, and column types using `.info()` and `.describe()`.
+
+4. **Data Cleaning and Transformation**  
+   - Removed duplicate rows and handled missing values(by deleting them) to ensure data integrity.  
+   - Converted `unit_price` from object to numeric by stripping currency symbols and casting to `float`.  
+   - Parsed `date` and `time` columns into appropriate `datetime` formats for time-series analysis.  
+   - Created a new calculated column `total_sales` for revenue analysis.  
+   - Standardized column names for consistency.
+
+5. **Database Integration**  
+   - Established a secure connection to SQL Server using `pyodbc` and `sqlalchemy`.  
+   - Created a new database `walmart_db` and exported the cleaned DataFrame to a table `walmart_sales`.  
+   - Verified successful data persistence in SQL Server for subsequent queries.
+
+6. **Exploratory Data Analysis (EDA)**  
+   - Queried the database to validate record counts and data integrity.  
+   - Generated summary statistics for sales, quantity, and profit margins.  
+   - Identified maximum and minimum sales values and overall transaction distribution.  
+
+7. **Advanced SQL Analytics**  
+   - Implemented SQL queries using adavced SQL concepts such as CTEs, window functions, and aggregations to derive insights on:  
+     * Payment method-wise sales and quantity distribution.  
+     * Category-level revenue and profitability analysis.  
+     * Customer rating trends across branches and categories.  
+     * Time-of-day transaction patterns (Morning, Afternoon, Night).  
+     * Year-over-Year (YoY) performance analysis for branches.
+
+Check out the complete code, [Analysis Notebook](https://github.com/TSgthb/Python_Projects/blob/main/Analyzing%20Walmart%20Sales%20Data/Notebooks/analysis_notebook.ipynb).
+
+---
+
+## Analysis & Findings
+
+Based on the analysis of the data conducted, following are the key findings that could be targeted upon for maximizing business, improving customer engagement and reverse negative sales trends:
 
 1. **Data Integrity and Preparation**  
    - The original dataset was cleaned from 10,051 records to 9,969 valid transactions after removing duplicates and missing values.
@@ -53,9 +90,11 @@ Based on the analysis of the data conducted, following are the key findings:
 <b>Conclusion:</b> Walmart’s business is driven by a few high-performing categories and strong digital payment adoption. However, branch-level declines and underperforming categories require focused intervention strategies. Leveraging time-of-day trends and enhancing customer experience in high-rated but low-revenue categories can create balanced growth oppurtunities.
 <p>
 
+---
+
 ## Strategic Recommendations
 
-Below are the few actionable strategies that could help the business grow while leveraging high-value oppurtunities and reversing negative sales trends:
+Below are the few actionable strategies that could help the business grow by leveraging high-value oppurtunities and reversing negative sales trends:
 
 1. **Enhance Digital Payment Experience**  
    - Invest in secure, fast, and user-friendly digital payment systems to strengthen customer trust and convenience.  
@@ -76,3 +115,4 @@ Below are the few actionable strategies that could help the business grow while 
 5. **Customer Experience and Personalization**  
    - Use rating insights to personalize recommendations and improve service quality in categories with mixed ratings.  
    - Deploy targeted surveys to understand customer expectations in underperforming branches.
+
