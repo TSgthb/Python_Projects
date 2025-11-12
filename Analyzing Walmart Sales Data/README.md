@@ -14,15 +14,13 @@ It leverages SQL Server, Python, and Jupyter Notebook to cover the entire proces
 The pipeline also enables exploratory analysis and delivers actionable business insights through advanced SQL techniques, including CTEs, subqueries, and window functions. The entire pipeline has been set-up using a Jupyter Notebook.
 <p>
 
-Jump to end for [Analysis & Findings](https://github.com/TSgthb/Python_Projects/tree/main/Analyzing%20Walmart%20Sales%20Data#analysis--findings).
-
----
+Jump to end for *[Analysis & Findings](https://github.com/TSgthb/Python_Projects/tree/main/Analyzing%20Walmart%20Sales%20Data#analysis--findings).*
 
 ## Project Outline
 
 1. **Environment Setup and Data Acquisition**  
    - Configured the Python environment using VSCode and installed required libraries, `pandas`, `sqlalchemy`, and `pyodbc`.  
-   - Ingested the Walmart [dataset](https://www.kaggle.com/najir0123/walmart-10k-sales-datasets) from Kaggle using the Kaggle API and Python module `kaggle`.
+   - Ingested the Walmart *[dataset](https://www.kaggle.com/najir0123/walmart-10k-sales-datasets)* from Kaggle using the Kaggle API and Python module `kaggle`.
 
 2. **Notebook Initialization and Library Imports**  
    - Created a Jupyter Notebook as the central workspace for the data loading, tranformation and analysis.  
@@ -57,9 +55,7 @@ Jump to end for [Analysis & Findings](https://github.com/TSgthb/Python_Projects/
      * Time-of-day transaction patterns (Morning, Afternoon, Night).  
      * Year-over-Year (YoY) performance analysis for branches.
 
-Check out the complete code, [Analysis Notebook](https://github.com/TSgthb/Python_Projects/blob/main/Analyzing%20Walmart%20Sales%20Data/Notebooks/analysis_notebook.ipynb).
-
----
+Check out the complete code, *[Analysis Notebook](https://github.com/TSgthb/Python_Projects/blob/main/Analyzing%20Walmart%20Sales%20Data/Notebooks/analysis_notebook.ipynb).*
 
 ## Analysis & Findings
 
@@ -90,8 +86,6 @@ Based on the analysis of the data conducted, following are the key findings that
 <b>Conclusion:</b> Walmart’s business is driven by a few high-performing categories and strong digital payment adoption. However, branch-level declines and underperforming categories require focused intervention strategies. Leveraging time-of-day trends and enhancing customer experience in high-rated but low-revenue categories can create balanced growth oppurtunities.
 <p>
 
----
-
 ## Strategic Recommendations
 
 Below are the few actionable strategies that could help the business grow by leveraging high-value oppurtunities and reversing negative sales trends:
@@ -115,4 +109,5 @@ Below are the few actionable strategies that could help the business grow by lev
 5. **Customer Experience and Personalization**  
    - Use rating insights to personalize recommendations and improve service quality in categories with mixed ratings.  
    - Deploy targeted surveys to understand customer expectations in underperforming branches.
+
 
