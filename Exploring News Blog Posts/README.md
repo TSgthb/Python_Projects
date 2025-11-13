@@ -1,0 +1,3 @@
+# Analyzing Hacker News Posts Data
+
+Hacker News is a platform, extremely popular in technology and startup circles, where users share their posts and receives some votes and comments. We would be analyzing these posts along with some additional data like date of creation, upvotes, comments and so on, to derive some useful insights. The [data set]('https://www.kaggle.com/hacker-news/hacker-news-posts') used has been cut down from almost 300,000 rows to approximately 20,000 rows for our analysis purposes by removing those posts' data which have incomplete information such as zero comments or upvotes.
