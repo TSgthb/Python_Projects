@@ -37,6 +37,8 @@ Jump to end for *[Analysis & Findings](https://github.com/TSgthb/Python_Projects
    - Identified top hours for maximum points on **Show HN** posts.  
    - Compared engagement metrics of Ask/Show HN posts with all other posts.
 
+Check out the complete code, *[Analysis Notebook](https://github.com/TSgthb/Python_Projects/blob/main/Exploring%20News%20Blog%20Posts/Notebooks/Exploring%20HackerNews%20Posts.ipynb)*.
+
 ## Analysis & Findings
 
 1. **Ask HN vs Show HN Engagement**  
@@ -70,4 +72,5 @@ Jump to end for *[Analysis & Findings](https://github.com/TSgthb/Python_Projects
 
 4. **Further Analysis**  
    - Explore additional factors such as post length, topic category, and seasonal trends for deeper insights.
+
 
