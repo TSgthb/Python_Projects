@@ -12,7 +12,7 @@ This project analyzes a curated dataset of approximately <b>20,000 posts</b> (or
 The primary goal is to uncover patterns in user engagement by comparing <b>Ask HN</b> and <b>Show HN</b> posts and analyzing how posting time influences comments and points.
 <p>
 
-Jump to end for *[Analysis & Findings](https://github.com/TSgthb/Python_Projects/tree/main/#analysis--findings).*
+Jump to end for *[Analysis & Findings](https://github.com/TSgthb/Python_Projects/blob/main/Exploring%20News%20Blog%20Posts/README.md#analysis--findings).*
 
 ## Project Outline
 
@@ -70,3 +70,4 @@ Jump to end for *[Analysis & Findings](https://github.com/TSgthb/Python_Projects
 
 4. **Further Analysis**  
    - Explore additional factors such as post length, topic category, and seasonal trends for deeper insights.
+
