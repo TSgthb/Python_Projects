@@ -8,7 +8,7 @@ This project explores a unique dataset of <i> <a href="https://en.wikipedia.org/
 The dataset, sourced from Wikipedia, includes details such as the date of the attempt, prison name, country, success status, and escapee names. The goal is to uncover patterns and insights related to these rare and high-risk escape attempts.
 <p>
 
-Jump to end for *[Analysis & Findings](https://github.com/TSgthb/Python_Projects/tree/main/Analyzing%20Helicopter%20Prison%20Escape%20Attempts#analysis--findings).*
+Jump to end for *[Analysis & Findings](https://github.com/TSgthb/Python_Projects/blob/main/Exploring%20News%20Blog%20Posts/README.md#analysis--findings).*
 
 ## Project Outline
 
@@ -73,3 +73,4 @@ Based on the analysis, the following recommendations can be made for further res
 
 4. **Data Enrichment**  
    - Collect additional details such as helicopter type, security protocols, and weather conditions to improve predictive modeling.
+
