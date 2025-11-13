@@ -1,7 +1,5 @@
 # Analyzing Shopping Store Sales Data
 
-## Overview
-
 <p align="justify">
 This project showcases the implementation of an end-to-end data analysis pipeline using a sample retail dataset from Walmart, a global hyperstore chain.
 <p>
@@ -109,5 +107,6 @@ Below are the few actionable strategies that could help the business grow by lev
 5. **Customer Experience and Personalization**  
    - Use rating insights to personalize recommendations and improve service quality in categories with mixed ratings.  
    - Deploy targeted surveys to understand customer expectations in underperforming branches.
+
 
 
