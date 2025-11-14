@@ -74,5 +74,15 @@ Check out the complete code, *[Analysis Notebook](https://github.com/TSgthb/Pyth
 4. **Further Analysis**  
    - Explore additional factors such as post length, topic category, and seasonal trends for deeper insights.
 
+## Conclusion
+
+We explored Hacker News posts to determine which post types and posting times drive maximum engagement. Key takeaways include:
+
+- **Post Type Impact**: *Ask HN* posts receive more comments on average, while *Show HN* posts earn higher points, indicating different engagement patterns based on post intent.
+- **Timing Matters**: For *Ask HN* posts, the best time to post is between **15:00–16:00 EST (01:00–02:00 IST)** for maximum comments. For *Show HN* posts, posting between **23:00–00:00 EST (09:00–10:00 IST)** yields the highest points.
+- **Other Posts Outperform**: Posts outside Ask/Show HN categories consistently achieve higher average points and comments, suggesting broader topics attract more attention.
+
+These insights emphasize the importance of timing and post type in maximizing audience engagement. For users aiming to increase visibility, aligning post strategy with these patterns can significantly improve results.
+
 
 
