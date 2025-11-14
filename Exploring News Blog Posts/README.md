@@ -1,4 +1,5 @@
 # Exploring Hacker News Posts
+> _This project was created using documentation available on [Dataquest](https://www.dataquest.io/blog/data-analyst-projects-for-beginners/)._
 
 <p align="justify">
 Hacker News is a popular platform in technology and startup circles where users share posts, receive votes, and engage in discussions. 
@@ -72,5 +73,6 @@ Check out the complete code, *[Analysis Notebook](https://github.com/TSgthb/Pyth
 
 4. **Further Analysis**  
    - Explore additional factors such as post length, topic category, and seasonal trends for deeper insights.
+
 
 
