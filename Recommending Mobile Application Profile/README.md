@@ -9,7 +9,7 @@ This project aims to identify profitable app profiles for <b>Dev_It</b>, a ficti
 The analysis uses sample datasets from Android's <b>Google Play Store</b> and Apple's <b>App Store</b>, focusing on free apps because they typically attract more downloads and engagement.
 </p>
 
-Jump to end for *[Analysis & Findings](https://github.com/TSgthb/Python_Projects/tree/main/Analyzing%20Walmart%20Sales%20Data#analysis--findings).*
+Jump to end for *[Analysis & Findings](https://github.com/TSgthb/Python_Projects/tree/main/Recommending%20Mobile%20Application%20Profile#analysis--findings).*
 
 ## Project Outline
 1. **Data Acquisition and Setup**  
@@ -48,7 +48,7 @@ Jump to end for *[Analysis & Findings](https://github.com/TSgthb/Python_Projects
    - Shows promising engagement but is heavily skewed toward apps like **Bible**, **Dictionary.com**, and **Amazon Kindle**.  
    - Indicates potential for apps based on popular books, provided they include unique features.
 
-Check out the complete code, *[Analysis Notebook](https://github.com/TSgthb/Python_Projects/blob/main/Analyzing%20Walmart%20Sales%20Data/Notebooks/analysis_notebook.ipynb).*
+Check out the complete code, *[Analysis Notebook](https://github.com/TSgthb/Python_Projects/blob/main/Recommending%20Mobile%20Application%20Profile/Notebooks/App%20Profile%20Recommendation.ipynb).*
 
 ## Strategic Recommendations
 
@@ -72,3 +72,4 @@ To maximize profitability across both Google Play and App Store:
 - Focus on **entertainment-driven apps** with interactive elements.
 - Avoid saturated categories dominated by global brands.
 - Innovate within promising niches like **Books & Reference** by adding value beyond basic content.
+
