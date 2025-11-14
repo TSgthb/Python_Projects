@@ -106,10 +106,11 @@ Below are the few actionable strategies that could help the business grow by lev
 
 ## Conclusion
 
-<p align="justify">  
-Walmart’s business is driven by a few high-performing categories and strong digital payment adoption. However, branch-level declines and underperforming categories require focused intervention strategies. 
-</p>
+We analyzed Walmart’s sales data to uncover patterns and actionable insights for improving business performance. Our findings indicate that:
 
-<p align="justify">  
-Leveraging time-of-day trends and enhancing customer experience in high-rated but low-revenue categories can create balanced growth oppurtunities and help boost overall sales and profitability.
-<p>
+- **Category Performance**: Fashion Accessories and Home & Lifestyle dominate revenue and profitability, while Health & Beauty shows strong customer satisfaction despite low revenue.
+- **Payment Preferences**: Digital payments lead significantly, with Credit Card and E-wallet accounting for the majority of transactions, highlighting the need for robust digital infrastructure.
+- **Customer Behavior**: Night-time transactions are most frequent, suggesting that promotional campaigns and staffing should prioritize evening hours.
+- **Branch-Level Trends**: Several branches experienced YoY declines exceeding 50%, signaling operational challenges that require targeted interventions.
+
+Overall, the analysis emphasizes focusing on high-performing categories, enhancing digital payment experiences, leveraging time-of-day trends, and addressing branch-level declines to drive sustainable growth and profitability.
