@@ -74,5 +74,6 @@ We analyzed datasets from Google Play and Apple App Store to identify app profil
 - **High Engagement Niches**: Navigation, Social Networking, and Music show high engagement but are saturated with major players, making them less viable for new entrants.
 - **Promising Opportunity**: Books & Reference offers potential for innovation, especially by creating apps around popular books with added features like audio versions, daily quotes, quizzes, and community forums.
 
-Overall, the analysis suggests that focusing on entertainment-driven apps with unique, interactive features—particularly in the Books & Reference niche—can help achieve higher user engagement and profitability across both platforms.
+Overall, the analysis suggests that focusing on entertainment-driven apps with unique, interactive features, particularly in the Books & Reference niche, can help achieve higher user engagement and profitability across both platforms.
+
 
