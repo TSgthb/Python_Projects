@@ -68,8 +68,11 @@ Based on the analysis, the most promising app profile is:
 
 ## Conclusion
 
-To maximize profitability across both Google Play and App Store:
-- Focus on **entertainment-driven apps** with interactive elements.
-- Avoid saturated categories dominated by global brands.
-- Innovate within promising niches like **Books & Reference** by adding value beyond basic content.
+We analyzed datasets from Google Play and Apple App Store to identify app profiles that can maximize profitability for a company relying on in-app ads. Our findings indicate that:
+
+- **Dominant Categories**: Games and Entertainment dominate both marketplaces, while Family and Tools are strong on Google Play.
+- **High Engagement Niches**: Navigation, Social Networking, and Music show high engagement but are saturated with major players, making them less viable for new entrants.
+- **Promising Opportunity**: Books & Reference offers potential for innovation, especially by creating apps around popular books with added features like audio versions, daily quotes, quizzes, and community forums.
+
+Overall, the analysis suggests that focusing on entertainment-driven apps with unique, interactive features—particularly in the Books & Reference niche—can help achieve higher user engagement and profitability across both platforms.
 
