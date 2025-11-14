@@ -75,4 +75,13 @@ Based on the analysis, the following recommendations can be made for further res
 4. **Data Enrichment**  
    - Collect additional details such as helicopter type, security protocols, and weather conditions to improve predictive modeling.
 
+## Conclusion
+
+We analyzed historical data on helicopter-assisted prison escapes to uncover patterns and insights. Our findings indicate that:
+
+- **Temporal Trends**: Years like 1986, 2001, 2007, and 2009 recorded the highest number of attempts, suggesting certain periods were more prone to such incidents.
+- **Geographic Insights**: France, the United States, and Canada emerged as the countries with the most attempts and highest success rates, making them critical focus areas for security enhancements.
+- **Success Factors**: Smaller groups (2–3 escapees) had better success rates compared to larger groups, highlighting the role of coordination and planning in escape attempts.
+
+Overall, the analysis demonstrates that both timing and group size significantly influence the likelihood of success. These insights can help correctional facilities strengthen preventive measures and allocate resources effectively.
 
