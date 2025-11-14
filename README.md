@@ -1,4 +1,4 @@
-# Python & Jupyter Notebook Projects Repository
+# Python Projects Repository
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
