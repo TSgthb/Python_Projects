@@ -1,5 +1,4 @@
 # Analyzing Shopping Store Sales Data
-> _This project was created using documentation available on [Dataquest](https://www.dataquest.io/blog/data-analyst-projects-for-beginners/)._
 
 <p align="justify">
 This project showcases the implementation of an end-to-end data analysis pipeline using a sample retail dataset from Walmart, a global hyperstore chain.
@@ -81,10 +80,6 @@ Based on the analysis of the data conducted, following are the key findings that
    - Year-over-Year analysis (2022 to 2023) reveals significant declines in some branches. The bottom five branches experienced declines exceeding 50%, with WALM045 showing the steepest drop at -62.62%.
    - These declines indicate operational or market challenges that require targeted interventions to reverse negative trends.
 
-<p align="justify">  
-<b>Conclusion:</b> Walmart’s business is driven by a few high-performing categories and strong digital payment adoption. However, branch-level declines and underperforming categories require focused intervention strategies. Leveraging time-of-day trends and enhancing customer experience in high-rated but low-revenue categories can create balanced growth oppurtunities.
-<p>
-
 ## Strategic Recommendations
 
 Below are the few actionable strategies that could help the business grow by leveraging high-value oppurtunities and reversing negative sales trends:
@@ -109,6 +104,12 @@ Below are the few actionable strategies that could help the business grow by lev
    - Use rating insights to personalize recommendations and improve service quality in categories with mixed ratings.  
    - Deploy targeted surveys to understand customer expectations in underperforming branches.
 
+## Conclusion
 
+<p align="justify">  
+Walmart’s business is driven by a few high-performing categories and strong digital payment adoption. However, branch-level declines and underperforming categories require focused intervention strategies. 
+</p>
 
-
+<p align="justify">  
+Leveraging time-of-day trends and enhancing customer experience in high-rated but low-revenue categories can create balanced growth oppurtunities and help boost overall sales and profitability.
+<p>
