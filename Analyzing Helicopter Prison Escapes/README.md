@@ -1,4 +1,5 @@
 # Analyzing Helicopter Prison Escape Attempts
+> _This project was created using documentation available on [Dataquest](https://www.dataquest.io/blog/data-analyst-projects-for-beginners/)._
 
 <p align="justify">
 This project explores a unique dataset of <i> <a href="https://en.wikipedia.org/wiki/List_of_helicopter_prison_escapes#Actual_attempts">prison escapes attempted using helicopters</a></i>. 
@@ -8,7 +9,7 @@ This project explores a unique dataset of <i> <a href="https://en.wikipedia.org/
 The dataset, sourced from Wikipedia, includes details such as the date of the attempt, prison name, country, success status, and escapee names. The goal is to uncover patterns and insights related to these rare and high-risk escape attempts.
 <p>
 
-Jump to end for *[Analysis & Findings](https://github.com/TSgthb/Python_Projects/blob/main/Exploring%20News%20Blog%20Posts/README.md#analysis--findings).*
+Jump to end for *[Analysis & Findings](https://github.com/TSgthb/Python_Projects/tree/main/Analyzing%20Helicopter%20Prison%20Escapes#analysis--findings).*
 
 ## Project Outline
 
@@ -73,4 +74,5 @@ Based on the analysis, the following recommendations can be made for further res
 
 4. **Data Enrichment**  
    - Collect additional details such as helicopter type, security protocols, and weather conditions to improve predictive modeling.
+
 
