@@ -94,16 +94,32 @@ pip install pandas numpy scikit-learn matplotlib customtkinter openpyxl
 
 ## How to Run
 
-1. Download the script and save it as database_growth_predictor.py.
+1. Download the script and save it at the preferred location.
 2. Run the application:
 
 ```pwsh
-python database_growth_predictor.py
+python DatabaseGrowthAnalysis_Beta_v1.7.2.py
 ```
 
+Note: Specify the file path where you have saved the script.
+
+![start_application](https://github.com/TSgthb/Python_Projects/blob/main/Database%20Growth%20Predictor/Images/start_application.png)
+
+![main_window](https://github.com/TSgthb/Python_Projects/blob/main/Database%20Growth%20Predictor/Images/main_window.png)
+
 3. Provide the Excel file path or use the Browse button.
-4. Click Analyze to view results and graphs.
-5. Click Exit on the main window to close the application safely.
+
+![browse](https://github.com/TSgthb/Python_Projects/blob/main/Database%20Growth%20Predictor/Images/browse.png)
+
+5. Click Analyze to view results and graphs.
+
+![analyze](https://github.com/TSgthb/Python_Projects/blob/main/Database%20Growth%20Predictor/Images/analyze.png)
+
+![graphs](https://github.com/TSgthb/Python_Projects/blob/main/Database%20Growth%20Predictor/Images/graphs%26analysis.png)
+
+7. Click Exit on the main window to close the application safely.
+
+![exit](https://github.com/TSgthb/Python_Projects/blob/main/Database%20Growth%20Predictor/Images/exit.png)
 
 ## Planned Enhancements
 
