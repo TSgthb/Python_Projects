@@ -1,3 +1,7 @@
+<p align="left">
+  	<img alt="Static Badge" src="https://img.shields.io/badge/version-beta_v1.7.2-blue?style=for-the-badge" />
+</p>
+
 # Database Growth Predictor
 
 <p align="justify">
@@ -92,6 +96,7 @@ pip install pandas numpy scikit-learn matplotlib customtkinter openpyxl
 
 1. Download the script and save it as database_growth_predictor.py.
 2. Run the application:
+
 ```pwsh
 python database_growth_predictor.py
 ```
@@ -100,7 +105,7 @@ python database_growth_predictor.py
 4. Click Analyze to view results and graphs.
 5. Click Exit on the main window to close the application safely.
 
-## Future Enhancements
+## Planned Enhancements
 
 1. Export forecast results to Excel, CSV or text file.
 2. Add custom forecast duration input with an interactive element at the main window.
