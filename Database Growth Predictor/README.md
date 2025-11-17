@@ -16,7 +16,7 @@ This tool is ideal for:
 The application provides the following features:
 
 1. **User-Friendly GUI**
-- Built using **CustomTkinter** for a modern, dark-themed interface. Learn more about the module from [here](https://customtkinter.tomschimansky.com/)
+- Built using **CustomTkinter** for a modern, dark-themed interface. Learn more about the module from [here](https://customtkinter.tomschimansky.com/).
 - Allows users to:
   - Enter or browse for an Excel file containing historical backup data.
   - Trigger analysis with a single click.
