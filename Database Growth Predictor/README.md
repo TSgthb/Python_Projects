@@ -1,6 +1,8 @@
 # Database Growth Predictor
 
-The **Database Growth Predictor** is a GUI-based Python application designed to analyze historical database backup sizes and forecast future growth trends. It leverages **linear regression modeling** to predict database size progression over time, assuming a steady and linear growth pattern.
+<p align="justify">
+The <b>Database Growth Predictor</b> is a GUI-based Python application designed to analyze historical database backup sizes and forecast future growth trends. It leverages <b>linear regression modeling</b> to predict database size progression over time, assuming a steady and linear growth pattern.
+</p>
 
 ## Use Cases
 
@@ -25,7 +27,7 @@ The application provides the following features:
   - **Database**: Name of the database.
   - **Size**: Backup size of the database in GB.
   - **Date**: Backup date (must be in `datetime` format).
-- Data should be **sorted by database and date**, with the latest date at the top. Check out the [sample sheet](asasas) for reference.
+- Data should be **sorted by database and date**, with the latest date at the top. Check out the [sample sheet](https://github.com/TSgthb/Python_Projects/blob/main/Database%20Growth%20Predictor/Datasets/Database%20Backup%20Sheet.xlsx) for reference.
 - The information can be extracted using system tables in SQL Server. This is a sample query which extracts the history of database backup of all the databases in a SQL Server:
 ```sql
 WITH LastBackUp AS
@@ -104,4 +106,6 @@ python database_growth_predictor.py
 2. Add custom forecast duration input with an interactive element at the main window.
 3. Support for multiple sheets or CSV files.
 4. Integration with cloud storage APIs for automated data retrieval.
+5. GUI improvements.
+6. Improving file handling capabilities.
 
