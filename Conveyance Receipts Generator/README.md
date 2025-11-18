@@ -4,7 +4,6 @@
 
 # Conveyance Receipts Generator
 
-
 <p align="justify">
 The <b>Receipts Generator</b> is a Python-based automation tool designed to streamline the process of generating receipts from conveyance data stored in an Excel sheet. It converts each record into a <b>PDF receipt</b>, transforms the PDFs into <b>cropped images</b>, and finally compresses all images into a <b>ZIP folder</b> for easy sharing and archival.
 </p>
@@ -56,6 +55,14 @@ python --version
 pip install pandas reportlab pdf2image pillow
 ```
 
+3. The current version of the script is heavily dependant on the hardquoted file paths. The script:
+
+- Creates PDFs for all the records in the same folder the script is running from. 
+- Converts all the PDFs to cropped images under a specific folder (named `pdf2image`) under the same folder where the script has been hosted. This operation requires the images folder (here named, `pdf2image`) to be created beforehand under the script's hosting folder.
+- Converts all the edited images into a singular ZIP folder and generates it under the same directory as the script.
+
+_**Note**: The paths (except for the input file) can be changed from the script only._
+
 ## How to Run
 
 1. Download the script and save it at the preferred location.
@@ -67,7 +74,7 @@ python recieptsgenerator.py
 
 _**Note**: Specify the file path where you have saved the script._
 
-3. Provide the full path to the Excel file when prompted.
+3. Provide the full path to the Excel file when prompted. Ensure no quotes are given to the path.
 
 4. The script will:
 - Generate PDFs for each record.
