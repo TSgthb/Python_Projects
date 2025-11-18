@@ -101,7 +101,7 @@ pip install pandas numpy scikit-learn matplotlib customtkinter openpyxl
 python DatabaseGrowthAnalysis_Beta_v1.7.2.py
 ```
 
-Note: Specify the file path where you have saved the script.
+_**Note**: Specify the file path where you have saved the script._
 
 ![start_application](https://github.com/TSgthb/Python_Projects/blob/main/Database%20Growth%20Predictor/Images/start_application.png)
 
