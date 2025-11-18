@@ -12,7 +12,7 @@ The <b>Receipts Generator</b> is a Python-based automation tool designed to stre
 
 This tool is ideal for:
 - Automating **receipt generation** for expense reporting.
-- Reducing manual effort in creating and organizing receipts for audits or reimbursements.
+- **Reducing manual effort** in creating and organizing receipts for audits or reimbursements.
 
 ## Functionality
 
@@ -60,8 +60,9 @@ pip install pandas reportlab pdf2image pillow
 - Creates PDFs for all the records in the same folder the script is running from. 
 - Converts all the PDFs to cropped images under a specific folder (named `pdf2image`) under the same folder where the script has been hosted. This operation requires the images folder (here named, `pdf2image`) to be created beforehand under the script's hosting folder.
 - Converts all the edited images into a singular ZIP folder and generates it under the same directory as the script.
+  > _**Note**: The paths (except for the input file) can be changed from the script only._
 
-_**Note**: The paths (except for the input file) can be changed from the script only._
+- Install `poppler` and add `\bin` folder to the path. Check out [this](https://pdf2image.readthedocs.io/en/latest/installation.html#installing-poppler) for more information.
 
 ## How to Run
 
@@ -74,12 +75,23 @@ python recieptsgenerator.py
 
 _**Note**: Specify the file path where you have saved the script._
 
+![launch](https://github.com/TSgthb/Python_Projects/blob/main/Conveyance%20Receipts%20Generator/Images/start_script.png)
+
+![interfact](https://github.com/TSgthb/Python_Projects/blob/main/Conveyance%20Receipts%20Generator/Images/start_script_interface.png)
+
 3. Provide the full path to the Excel file when prompted. Ensure no quotes are given to the path.
 
-4. The script will:
+![path](https://github.com/TSgthb/Python_Projects/blob/main/Conveyance%20Receipts%20Generator/Images/file_path.png)
+
+4. The script gives a message on console and will:
+
 - Generate PDFs for each record.
 - Generate convert PDFs to cropped images.
 - Create a ZIP folder containing all images.
+
+![output](https://github.com/TSgthb/Python_Projects/blob/main/Conveyance%20Receipts%20Generator/Images/files_created.png)
+
+![output_explorer](https://github.com/TSgthb/Python_Projects/blob/main/Conveyance%20Receipts%20Generator/Images/files_created_explorer.png)
 
 ## Planned Enhancements
 
