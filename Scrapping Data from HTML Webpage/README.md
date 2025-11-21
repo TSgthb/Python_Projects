@@ -53,7 +53,8 @@ for prod in products:
 ```
 
 <p>
-4. Save extracted product data into a structured CSV file.
+4. Save extracted product data into a structured CSV
+    <i> <a href="https://github.com/TSgthb/Python_Projects/blob/main/Scrapping%20Data%20from%20HTML%20Webpage/Datasets/apple_scrapped_data.csv">file</a></i>.
 </p>
 
 ```python
@@ -72,4 +73,13 @@ file_csv_read = pd.read_csv('apple_scrapped_data.csv', encoding='utf-8')
 file_df = pd.DataFrame(file_csv_read)
 print(file_df)
 ```
-![alt](Images/scrapped_dataset.png)
+
+![output](https://github.com/TSgthb/Python_Projects/blob/main/Scrapping%20Data%20from%20HTML%20Webpage/Images/scrapped_dataset.png)
+
+Check out the complete code _[here](https://github.com/TSgthb/Python_Projects/blob/main/Scrapping%20Data%20from%20HTML%20Webpage/Scripts/app.py)._
+
+## Conclusion
+- Successfully scraped product details including name, price, stock, rating, and shipping info.
+- Data stored in a CSV file for portability and further analysis.
+- Validation confirmed that the dataset is structured and readable via Pandas DataFrame.
+- This framework can be extended to scrape real-world e-commerce sites by replacing the static HTML file with live HTTP requests and help develop ETL pipelines.
