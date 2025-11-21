@@ -72,3 +72,4 @@ file_csv_read = pd.read_csv('apple_scrapped_data.csv', encoding='utf-8')
 file_df = pd.DataFrame(file_csv_read)
 print(file_df)
 ```
+![alt](Images/scrapped_dataset.png)
