@@ -10,8 +10,8 @@ The scraping script leverages <code>BeautifulSoup</code>, <code>CSV</code>, and 
 
 ## Objectives
 - Extract product information (name, price, stock, rating, shipping) from the HTML file.
-- Save the scraped data into a **CSV dataset**.
-- Validate the dataset by loading it into a **Pandas DataFrame**.
+- Save the scraped data into a CSV dataset.
+- Validate the dataset by loading it into a Pandas DataFrame.
 
 ## Operations & Tasks
 
@@ -83,3 +83,4 @@ Check out the complete code _[here](https://github.com/TSgthb/Python_Projects/bl
 - Data stored in a CSV file for portability and further analysis.
 - Validation confirmed that the dataset is structured and readable via Pandas DataFrame.
 - This framework can be extended to scrape real-world e-commerce sites by replacing the static HTML file with live HTTP requests and help develop ETL pipelines.
+
