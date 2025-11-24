@@ -113,7 +113,7 @@ read_file = pd.read_csv(file_to_save, encoding='utf-8')
 file_df = pd.DataFrame(read_file)
 print(file_df)
 ```
-![image](TSgthb/Python_Projects/Scraping Hotel Data from Booking.com/Images/DataFrame_Booking.com.png)
+![image](https://github.com/TSgthb/Python_Projects/blob/main/Scraping%20Hotel%20Data%20from%20Booking.com/Images/DataFrame_Booking.com.png)
 
 ## Conclusion
 - Successfully fetched and parsed Booking.com search results to extract hotel details.
