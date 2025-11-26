@@ -82,7 +82,7 @@ product_reviews = soup.find('ul', id='cm-cr-dp-review-list').text.strip()
 </p>
 
 ```python
-filename = 'C:\\Users\\tejvesin\\OneDrive - Capgemini\\Desktop\\Personal\\Python\\Projects\\Web Scrapping\\Amazon Data Scrapping\\AmazonScrapped_AppleAirpodProMax.csv'
+filename = 'C:\\Users\\...\\Web Scrapping\\Amazon Data Scrapping\\AmazonScrapped_AppleAirpodProMax.csv'
 with open(filename, mode='w', encoding='utf-8') as file:
     writer = csv.writer(file)
     writer.writerow(["product_title", "product_description", "product_price", "product_rating", "product_about", "product_reviews"])
@@ -101,8 +101,11 @@ file_df = pd.DataFrame(read_file)
 print(file_df)
 ```
 
+Check out the complete code _[here](https://github.com/TSgthb/Python_Projects/blob/main/Scraping%20Product%20Information%20from%20Amazon/Scripts/app.py)._
+
 ## Conclusion
 - Successfully fetched and parsed an Amazon product page to extract title, price, rating, description, key points, and reviews.
 - Stored the output into a CSV file for portability and downstream analysis.
 - Quick validation via Pandas confirmed the dataset is readable and structured.
 - With robust error handling and dynamic selector management, this approach can be adapted to other product pages and integrated into ETL pipelines.
+
