@@ -113,10 +113,14 @@ read_file = pd.read_csv(file_to_save, encoding='utf-8')
 file_df = pd.DataFrame(read_file)
 print(file_df)
 ```
+
 ![image](https://github.com/TSgthb/Python_Projects/blob/main/Scraping%20Hotel%20Data%20from%20Booking.com/Images/DataFrame_Booking_com.png)
+
+Check out the complete code _[here](https://github.com/TSgthb/Python_Projects/blob/main/Scraping%20Hotel%20Data%20from%20Booking.com/Scripts/app.py)._
 
 ## Conclusion
 - Successfully fetched and parsed Booking.com search results to extract hotel details.
 - Stored the output into a CSV file for portability and downstream analysis.
 - Quick validation via Pandas confirmed the dataset is readable and structured.
+
 - With robust error handling and dynamic selector management, this approach can be adapted to other destinations and integrated into ETL pipelines.
